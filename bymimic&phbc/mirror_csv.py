@@ -14,6 +14,9 @@ def mirror_csv(input_file, output_file, skip_last=True):
     input_file: 输入CSV文件路径
     output_file: 输出CSV文件路径  
     skip_last: 是否跳过最后一帧再反转（避免重复）
+    
+    示例:
+    python motion_source/mirror_csv.py --input dance1_subject2.csv --output mirrored_dance1_subject2.csv --skip_last
     """
     print(f"正在读取文件: {input_file}")
     
