@@ -14,6 +14,9 @@ def extract_frames_csv(input_file, output_file, start_frame, end_frame):
     output_file: 输出CSV文件路径  
     start_frame: 起始帧
     end_frame: 结束帧
+
+    示例:
+    python extract_csv.py --input dance1_subject2.csv --output pure_Charleston.csv --start 100 --end 500
     """
     print(f"正在读取文件: {input_file}")
     
