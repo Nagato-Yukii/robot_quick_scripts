@@ -13,6 +13,9 @@ def revert(input_pkl_path, output_csv_path):
     参数:
     input_pkl_path (str): 输入的 .pkl 文件路径。
     output_csv_path (str): 输出的 .csv 文件路径。
+
+    示例:
+    python revert.py --filepath Charleston_dance.pkl --output reverted_Charleston_dance.csv
     """
     print(f"--- 开始逆向转换 ---")
     print(f"正在加载文件: {input_pkl_path}")
